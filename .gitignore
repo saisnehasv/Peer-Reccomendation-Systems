@@ -28,6 +28,7 @@ wheels/
 *.ipynb_checkpoints/
 
 # Data files (too large for git)
+oulad/*.csv
 data/raw/*.csv
 data/raw/*.zip
 data/processed/*.csv

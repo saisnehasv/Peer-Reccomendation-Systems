@@ -58,42 +58,6 @@ Traditional peer matching approaches rely on similarity-based algorithms that pa
 ├── README.md                                       # This file
 ```
 
-## Dataset Statistics
-
-### OULAD Dataset
-- **Download Link**: https://analyse.kmi.open.ac.uk/open-dataset
-- **Total Enrollments**: 32,593
-- **Unique Students**: 28,785 (after filtering)
-- **VLE Interactions**: 10,655,280 click events
-- **Assessment Records**: 173,912 across TMA, CMA, and Exam types
-- **Modules**: 7 courses (AAA through GGG)
-- **Presentations**: 4 time periods
-
-### Processed Features
-- **Feature Matrix Shape**: (28,785, 15)
-- **Features per Student**: 14 (plus student ID)
-- **Feature Categories**:
-  - Temporal engagement (early, late, consistency, improvement)
-  - Skills (avg_score, TMA, CMA, Exam, variance)
-  - Learning patterns (total_clicks, active_days, click_variability)
-  - Demographics (encoded)
-
-### Training Data
-- **Total Pairs Generated**: 49,999
-- **Positive Pairs (label=1)**: 12,500 (25.0%)
-- **Negative Pairs (label=0)**: 37,499 (75.0%)
-- **Class Imbalance Ratio**: 1:3.0
-- **Complementarity Threshold**: 0.557 (75th percentile)
-
-### Complementarity Score Distribution
-- **Mean**: 0.3910
-- **Std**: 0.2056
-- **Min**: 0.0000
-- **25th percentile**: 0.2039
-- **50th percentile (median)**: 0.4257
-- **75th percentile**: 0.5572
-- **Max**: 0.9892
-
 ## Installation
 
 ### Prerequisites
@@ -199,6 +163,43 @@ Each recommendation includes:
 - Gender diversity: 50% (M vs F)
 - Age diversity: 60% (35-55 vs 0-35)
 - **Overall complementarity: 55% = "Good match"**
+
+## Dataset Statistics
+
+### OULAD Dataset
+- **Download Link**: https://analyse.kmi.open.ac.uk/open-dataset
+- **Total Enrollments**: 32,593
+- **Unique Students**: 28,785 (after filtering)
+- **VLE Interactions**: 10,655,280 click events
+- **Assessment Records**: 173,912 across TMA, CMA, and Exam types
+- **Modules**: 7 courses (AAA through GGG)
+- **Presentations**: 4 time periods
+
+### Processed Features
+- **Feature Matrix Shape**: (28,785, 15)
+- **Features per Student**: 14 (plus student ID)
+- **Feature Categories**:
+  - Temporal engagement (early, late, consistency, improvement)
+  - Skills (avg_score, TMA, CMA, Exam, variance)
+  - Learning patterns (total_clicks, active_days, click_variability)
+  - Demographics (encoded)
+
+### Training Data
+- **Total Pairs Generated**: 49,999
+- **Positive Pairs (label=1)**: 12,500 (25.0%)
+- **Negative Pairs (label=0)**: 37,499 (75.0%)
+- **Class Imbalance Ratio**: 1:3.0
+- **Complementarity Threshold**: 0.557 (75th percentile)
+
+### Complementarity Score Distribution
+- **Mean**: 0.3910
+- **Std**: 0.2056
+- **Min**: 0.0000
+- **25th percentile**: 0.2039
+- **50th percentile (median)**: 0.4257
+- **75th percentile**: 0.5572
+- **Max**: 0.9892
+
 
 ## Model Performance
 

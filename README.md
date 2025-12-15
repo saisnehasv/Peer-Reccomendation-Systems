@@ -12,12 +12,6 @@ Department of Statistics, University of Michigan
 
 Traditional peer matching approaches rely on similarity-based algorithms that pair students with comparable skills and backgrounds. This project implements a complementarity-based approach, where students with different but mutually beneficial strengths are matched together to maximize learning opportunities.
 
-### Key Results
-
-- **Best Model**: Hierarchical GraphSAGE achieves **98.4% ROC-AUC**
-- **Improvement**: 17.4% relative improvement over best baseline (XGBoost at 83.2%)
-- **Dataset**: 28,785 students, 10.6M VLE interactions, 174K assessment records
-- **Training Pairs**: 49,999 pairs with 3:1 class imbalance (12,500 positive, 37,499 negative)
 
 ## Repository Structure
 
@@ -100,42 +94,6 @@ Traditional peer matching approaches rely on similarity-based algorithms that pa
 - **75th percentile**: 0.5572
 - **Max**: 0.9892
 
-## Model Performance
-
-### Complete Results Table
-
-| Model | ROC-AUC | PR-AUC | Accuracy | Precision | Recall | F1-Score | Improvement |
-|-------|---------|--------|----------|-----------|--------|----------|-------------|
-| **Baselines** |
-| Logistic Regression | 0.7882 | 0.4797 | 0.6896 | 0.4346 | 0.8032 | 0.5640 | baseline |
-| XGBoost | 0.8315 | 0.5845 | 0.7028 | 0.4501 | 0.8520 | 0.5890 | +5.5% |
-| **Graph Neural Networks** |
-| GraphSAGE | 0.9764 | 0.8930 | N/A | N/A | N/A | N/A | +17.4% |
-| **Hierarchical GraphSAGE** | **0.9838** | **0.93+** | **N/A** | **N/A** | **N/A** | **N/A** | **+18.3%** |
-
-### Cross-Validation Results
-
-| Model | CV ROC-AUC | Std Dev |
-|-------|------------|---------|
-| Logistic Regression | 0.6983 | ±0.0091 |
-| XGBoost | 0.8315 | ±0.0045 |
-
-### Confusion Matrix (XGBoost - Test Set)
-- **True Negatives (TN)**: 4,898
-- **False Positives (FP)**: 2,602
-- **False Negatives (FN)**: 370
-- **True Positives (TP)**: 2,130
-
-### KNN Baseline
-- **Approach**: Similarity-based (cosine similarity)
-- **K**: 10 neighbors
-- **Average Complementarity**: 0.5829
-- **Std Complementarity**: 0.1986
-- **Total Recommendations**: 287,850
-- **Students Covered**: 28,785
-
-**Analysis**: KNN recommendations cluster around 0.58 complementarity, with ~60% falling below the 0.557 threshold for positive pairs. This demonstrates that similarity-based matching is inadequate for identifying complementary pairings.
-
 ## Installation
 
 ### Prerequisites
@@ -159,6 +117,9 @@ jupyter notebook
 pip install -r requirements.txt
 
 ## Usage
+### Set up Dataset 
+
+Download the dataset from (https://analyse.kmi.open.ac.uk/open-dataset) and place it in OULAD/ folder. 
 
 ### Running the Complete Pipeline
 
@@ -238,6 +199,49 @@ Each recommendation includes:
 - Gender diversity: 50% (M vs F)
 - Age diversity: 60% (35-55 vs 0-35)
 - **Overall complementarity: 55% = "Good match"**
+
+## Model Performance
+
+### Complete Results Table
+
+| Model | ROC-AUC | PR-AUC | Accuracy | Precision | Recall | F1-Score | Improvement |
+|-------|---------|--------|----------|-----------|--------|----------|-------------|
+| **Baselines** |
+| Logistic Regression | 0.7882 | 0.4797 | 0.6896 | 0.4346 | 0.8032 | 0.5640 | baseline |
+| XGBoost | 0.8315 | 0.5845 | 0.7028 | 0.4501 | 0.8520 | 0.5890 | +5.5% |
+| **Graph Neural Networks** |
+| GraphSAGE | 0.9764 | 0.8930 | N/A | N/A | N/A | N/A | +17.4% |
+| **Hierarchical GraphSAGE** | **0.9838** | **0.93+** | **N/A** | **N/A** | **N/A** | **N/A** | **+18.3%** |
+
+### Cross-Validation Results
+
+| Model | CV ROC-AUC | Std Dev |
+|-------|------------|---------|
+| Logistic Regression | 0.6983 | ±0.0091 |
+| XGBoost | 0.8315 | ±0.0045 |
+
+### Confusion Matrix (XGBoost - Test Set)
+- **True Negatives (TN)**: 4,898
+- **False Positives (FP)**: 2,602
+- **False Negatives (FN)**: 370
+- **True Positives (TP)**: 2,130
+
+### KNN Baseline
+- **Approach**: Similarity-based (cosine similarity)
+- **K**: 10 neighbors
+- **Average Complementarity**: 0.5829
+- **Std Complementarity**: 0.1986
+- **Total Recommendations**: 287,850
+- **Students Covered**: 28,785
+
+**Analysis**: KNN recommendations cluster around 0.58 complementarity, with ~60% falling below the 0.557 threshold for positive pairs. This demonstrates that similarity-based matching is inadequate for identifying complementary pairings.
+
+### Key Results
+
+- **Best Model**: Hierarchical GraphSAGE achieves **98.4% ROC-AUC**
+- **Improvement**: 17.4% relative improvement over best baseline (XGBoost at 83.2%)
+- **Dataset**: 28,785 students, 10.6M VLE interactions, 174K assessment records
+- **Training Pairs**: 49,999 pairs with 3:1 class imbalance (12,500 positive, 37,499 negative)
 
 ## Key Components
 

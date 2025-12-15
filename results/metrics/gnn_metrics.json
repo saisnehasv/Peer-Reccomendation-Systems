@@ -1,0 +1,11 @@
+{
+  "model": "GraphSAGE",
+  "ROC-AUC": 0.9764295728813678,
+  "PR-AUC": 0.8929514895598849,
+  "Accuracy": 0.9423857566765579,
+  "test_pairs": 126375,
+  "embedding_dim": 48,
+  "hidden_dim": 64,
+  "device": "cpu",
+  "type": "classification"
+}

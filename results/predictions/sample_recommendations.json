@@ -1,0 +1,352 @@
+[
+  {
+    "student_id": 3733,
+    "recommendations": [
+      {
+        "student_id": 204505,
+        "ensemble_score": 0.943262767791748,
+        "cosine_similarity": -0.7140056490898132,
+        "complementarity": 0.5884899412111294
+      },
+      {
+        "student_id": 592214,
+        "ensemble_score": 0.9305616021156311,
+        "cosine_similarity": -0.7153816819190979,
+        "complementarity": 0.5897938977697758
+      },
+      {
+        "student_id": 2257853,
+        "ensemble_score": 0.9104884147644043,
+        "cosine_similarity": -0.7413815855979919,
+        "complementarity": 0.5723307720061948
+      },
+      {
+        "student_id": 620337,
+        "ensemble_score": 0.8777064323425293,
+        "cosine_similarity": -0.7513914704322815,
+        "complementarity": 0.5747711203575715
+      },
+      {
+        "student_id": 599577,
+        "ensemble_score": 0.8518270373344421,
+        "cosine_similarity": -0.6754769086837769,
+        "complementarity": 0.6142361386777767
+      }
+    ]
+  },
+  {
+    "student_id": 6516,
+    "recommendations": [
+      {
+        "student_id": 2596621,
+        "ensemble_score": 0.8136483430862427,
+        "cosine_similarity": -0.4761155843734741,
+        "complementarity": 0.5798654298070895
+      },
+      {
+        "student_id": 1970390,
+        "ensemble_score": 0.7612217783927917,
+        "cosine_similarity": -0.41228559613227844,
+        "complementarity": 0.6167010498974775
+      },
+      {
+        "student_id": 312537,
+        "ensemble_score": 0.6840620994567872,
+        "cosine_similarity": -0.2943290174007416,
+        "complementarity": 0.60283097049429
+      },
+      {
+        "student_id": 1576513,
+        "ensemble_score": 0.6680810809135438,
+        "cosine_similarity": -0.25159138441085815,
+        "complementarity": 0.5874967559638266
+      },
+      {
+        "student_id": 2244332,
+        "ensemble_score": 0.6219907402992249,
+        "cosine_similarity": -0.23266927897930145,
+        "complementarity": 0.5996016452639492
+      }
+    ]
+  },
+  {
+    "student_id": 8462,
+    "recommendations": [
+      {
+        "student_id": 204505,
+        "ensemble_score": 0.938333249092102,
+        "cosine_similarity": -0.15065056085586548,
+        "complementarity": 0.5881346638421594
+      },
+      {
+        "student_id": 592214,
+        "ensemble_score": 0.9244436621665955,
+        "cosine_similarity": -0.13824793696403503,
+        "complementarity": 0.5882329438738032
+      },
+      {
+        "student_id": 2257853,
+        "ensemble_score": 0.8979787707328796,
+        "cosine_similarity": -0.14125224947929382,
+        "complementarity": 0.565745146197544
+      },
+      {
+        "student_id": 620337,
+        "ensemble_score": 0.8669477820396423,
+        "cosine_similarity": -0.194429412484169,
+        "complementarity": 0.57834565264676
+      },
+      {
+        "student_id": 599577,
+        "ensemble_score": 0.8278270840644837,
+        "cosine_similarity": -0.23432408273220062,
+        "complementarity": 0.6253753311733892
+      }
+    ]
+  },
+  {
+    "student_id": 11391,
+    "recommendations": [
+      {
+        "student_id": 2596621,
+        "ensemble_score": 0.8487086653709411,
+        "cosine_similarity": -0.5662993788719177,
+        "complementarity": 0.5795002802027654
+      },
+      {
+        "student_id": 1970390,
+        "ensemble_score": 0.8223061561584473,
+        "cosine_similarity": -0.5567686557769775,
+        "complementarity": 0.6188605125499278
+      },
+      {
+        "student_id": 312537,
+        "ensemble_score": 0.7590291857719422,
+        "cosine_similarity": -0.4387006461620331,
+        "complementarity": 0.5919600214955795
+      },
+      {
+        "student_id": 1576513,
+        "ensemble_score": 0.7430845618247985,
+        "cosine_similarity": -0.44346484541893005,
+        "complementarity": 0.5752137284723191
+      },
+      {
+        "student_id": 2244332,
+        "ensemble_score": 0.6986758828163147,
+        "cosine_similarity": -0.4198698103427887,
+        "complementarity": 0.5840368095402316
+      }
+    ]
+  },
+  {
+    "student_id": 23629,
+    "recommendations": [
+      {
+        "student_id": 154570,
+        "ensemble_score": 0.9394173502922059,
+        "cosine_similarity": -0.6502611041069031,
+        "complementarity": 0.5636129447980507
+      },
+      {
+        "student_id": 606313,
+        "ensemble_score": 0.927116334438324,
+        "cosine_similarity": -0.6522757411003113,
+        "complementarity": 0.5503764871608507
+      },
+      {
+        "student_id": 621301,
+        "ensemble_score": 0.9262497425079346,
+        "cosine_similarity": -0.6456691026687622,
+        "complementarity": 0.5488298489620075
+      },
+      {
+        "student_id": 593694,
+        "ensemble_score": 0.9134869575500488,
+        "cosine_similarity": -0.6342870593070984,
+        "complementarity": 0.5737390125766615
+      },
+      {
+        "student_id": 626159,
+        "ensemble_score": 0.9128495573997498,
+        "cosine_similarity": -0.6555606126785278,
+        "complementarity": 0.5933307505366563
+      }
+    ]
+  },
+  {
+    "student_id": 23632,
+    "recommendations": [
+      {
+        "student_id": 154570,
+        "ensemble_score": 0.9408186793327331,
+        "cosine_similarity": -0.7586642503738403,
+        "complementarity": 0.5616670079593691
+      },
+      {
+        "student_id": 606313,
+        "ensemble_score": 0.9285436868667603,
+        "cosine_similarity": -0.7778392434120178,
+        "complementarity": 0.5520503158652889
+      },
+      {
+        "student_id": 621301,
+        "ensemble_score": 0.928346300125122,
+        "cosine_similarity": -0.766565203666687,
+        "complementarity": 0.5476462590101544
+      },
+      {
+        "student_id": 593694,
+        "ensemble_score": 0.9156812310218811,
+        "cosine_similarity": -0.766456127166748,
+        "complementarity": 0.5818009549995778
+      },
+      {
+        "student_id": 626159,
+        "ensemble_score": 0.9125123620033264,
+        "cosine_similarity": -0.7430202960968018,
+        "complementarity": 0.5857485690736927
+      }
+    ]
+  },
+  {
+    "student_id": 23698,
+    "recommendations": [
+      {
+        "student_id": 537811,
+        "ensemble_score": 0.9167691946029664,
+        "cosine_similarity": -0.38699913024902344,
+        "complementarity": 0.580721125931015
+      },
+      {
+        "student_id": 2063578,
+        "ensemble_score": 0.8884348511695862,
+        "cosine_similarity": -0.3979879915714264,
+        "complementarity": 0.6034522427056443
+      },
+      {
+        "student_id": 2088765,
+        "ensemble_score": 0.8807405352592468,
+        "cosine_similarity": -0.41978803277015686,
+        "complementarity": 0.5985048003899557
+      },
+      {
+        "student_id": 609229,
+        "ensemble_score": 0.8784208178520203,
+        "cosine_similarity": -0.38357892632484436,
+        "complementarity": 0.5041263264670816
+      },
+      {
+        "student_id": 622374,
+        "ensemble_score": 0.8782596826553345,
+        "cosine_similarity": -0.38837775588035583,
+        "complementarity": 0.6149767098203386
+      }
+    ]
+  },
+  {
+    "student_id": 23798,
+    "recommendations": [
+      {
+        "student_id": 154570,
+        "ensemble_score": 0.9038826107978821,
+        "cosine_similarity": -0.3085658848285675,
+        "complementarity": 0.5609992709734873
+      },
+      {
+        "student_id": 606313,
+        "ensemble_score": 0.882635498046875,
+        "cosine_similarity": -0.25503432750701904,
+        "complementarity": 0.5611312387303222
+      },
+      {
+        "student_id": 621301,
+        "ensemble_score": 0.8823119282722474,
+        "cosine_similarity": -0.2620121240615845,
+        "complementarity": 0.555706803247722
+      },
+      {
+        "student_id": 557085,
+        "ensemble_score": 0.869586706161499,
+        "cosine_similarity": -0.41356486082077026,
+        "complementarity": 0.5730919275785502
+      },
+      {
+        "student_id": 593694,
+        "ensemble_score": 0.8607682704925537,
+        "cosine_similarity": -0.2574393153190613,
+        "complementarity": 0.5888194913988833
+      }
+    ]
+  },
+  {
+    "student_id": 24186,
+    "recommendations": [
+      {
+        "student_id": 693788,
+        "ensemble_score": 0.8937836050987243,
+        "cosine_similarity": -0.606163740158081,
+        "complementarity": 0.5937735457280305
+      },
+      {
+        "student_id": 279747,
+        "ensemble_score": 0.8892146468162536,
+        "cosine_similarity": -0.6227027177810669,
+        "complementarity": 0.5976613369144459
+      },
+      {
+        "student_id": 2248789,
+        "ensemble_score": 0.7503014087677002,
+        "cosine_similarity": -0.6548562049865723,
+        "complementarity": 0.5640868387520351
+      },
+      {
+        "student_id": 645801,
+        "ensemble_score": 0.7422190189361573,
+        "cosine_similarity": -0.505950927734375,
+        "complementarity": 0.5822519932406803
+      },
+      {
+        "student_id": 620808,
+        "ensemble_score": 0.7401341199874878,
+        "cosine_similarity": -0.4899952709674835,
+        "complementarity": 0.5598878273640217
+      }
+    ]
+  },
+  {
+    "student_id": 24213,
+    "recommendations": [
+      {
+        "student_id": 204505,
+        "ensemble_score": 0.9449841856956482,
+        "cosine_similarity": 0.3425373136997223,
+        "complementarity": 0.5782274110774496
+      },
+      {
+        "student_id": 592214,
+        "ensemble_score": 0.9304376840591431,
+        "cosine_similarity": 0.3098173439502716,
+        "complementarity": 0.5793052526917917
+      },
+      {
+        "student_id": 2257853,
+        "ensemble_score": 0.9035962462425232,
+        "cosine_similarity": 0.32450348138809204,
+        "complementarity": 0.5674760045121211
+      },
+      {
+        "student_id": 620337,
+        "ensemble_score": 0.8770290493965149,
+        "cosine_similarity": 0.3243749141693115,
+        "complementarity": 0.5595652103393374
+      },
+      {
+        "student_id": 190279,
+        "ensemble_score": 0.8296069383621216,
+        "cosine_similarity": 0.29581576585769653,
+        "complementarity": 0.5575647848355814
+      }
+    ]
+  }
+]

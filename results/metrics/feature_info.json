@@ -1,0 +1,13 @@
+{
+  "num_students": 28785,
+  "num_features": 102,
+  "modules": [
+    "AAA",
+    "BBB",
+    "CCC",
+    "DDD",
+    "EEE",
+    "FFF",
+    "GGG"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scoring_methods": [
+    "raw",
+    "calibrated",
+    "ensemble"
+  ],
+  "explanation_components": [
+    "model_predictions",
+    "gnn_embedding_analysis",
+    "feature_analysis",
+    "overall_assessment"
+  ],
+  "visualization_types": [
+    "complementarity_breakdown",
+    "embedding_space_comparison",
+    "recommendation_scores",
+    "metrics_comparison"
+  ],
+  "saved_visualizations": "results/analysis/",
+  "available_functions": {
+    "generate_recommendations": "Main interface with explanations",
+    "explain_recommendation": "Detailed pair explanation",
+    "visualize_complementarity": "Visual student comparison",
+    "visualize_recommendations_summary": "Recommendation summary",
+    "score_with_ensemble": "Score pairs with specified method",
+    "recommend_with_ensemble": "Generate ensemble recommendations"
+  }
+}

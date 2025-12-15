@@ -1,0 +1,30 @@
+{
+  "model": "HierarchicalGraphSAGE",
+  "advanced_features": {
+    "attention_aggregation": true,
+    "focal_loss": true,
+    "hard_negative_mining": true,
+    "hierarchical_graph": true,
+    "ensemble_scoring": true
+  },
+  "base_performance": {
+    "roc_auc": 0.9837576054723156,
+    "pr_auc": 0.9297191183399798
+  },
+  "scoring_methods": {
+    "raw": "Direct sigmoid of GNN predictions",
+    "calibrated": "Temperature scaling with T=2.0",
+    "ensemble": "Weighted combination: 0.4*raw + 0.6*calibrated"
+  },
+  "configuration": {
+    "embedding_dim": 64,
+    "hidden_dim": 64,
+    "device": "cpu",
+    "epochs": 5,
+    "batch_size": 4096
+  },
+  "data_statistics": {
+    "num_students": 28785,
+    "num_test_pairs": 125953
+  }
+}

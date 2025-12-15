@@ -1,0 +1,51 @@
+{
+  "logistic_regression": {
+    "Accuracy": 0.6896,
+    "Precision": 0.43463203463203465,
+    "Recall": 0.8032,
+    "F1-Score": 0.5640449438202247,
+    "ROC-AUC": 0.7881852266666667,
+    "PR-AUC": 0.47972199260927584,
+    "type": "classification"
+  },
+  "xgboost": {
+    "Accuracy": 0.7028,
+    "Precision": 0.45012679628064245,
+    "Recall": 0.852,
+    "F1-Score": 0.5890486725663717,
+    "ROC-AUC": 0.8315369866666666,
+    "PR-AUC": 0.5845035938083278,
+    "type": "classification"
+  },
+  "knn": {
+    "avg_complementarity": 0.5829395505564002,
+    "std_complementarity": 0.19864046563983706,
+    "type": "recommendation",
+    "k": 10,
+    "total_recommendations": 287850,
+    "students_covered": 28785
+  },
+  "best_classifier": {
+    "name": "XGBoost",
+    "roc_auc": 0.8315369866666666
+  },
+  "data_info": {
+    "n_train": 39999,
+    "n_test": 10000,
+    "n_features": 16,
+    "class_imbalance_ratio": 2.9999
+  },
+  "recommendation_strategy": {
+    "hybrid_approach": "KNN for candidate generation + Classifier for filtering",
+    "knn_strengths": [
+      "Fast",
+      "Interpretable",
+      "No training required"
+    ],
+    "classifier_strengths": [
+      "Precision filtering",
+      "Learns complex patterns",
+      "Handles imbalance"
+    ]
+  }
+}

@@ -54,6 +54,8 @@ Traditional peer matching approaches rely on similarity-based algorithms that pa
 │       ├── gnn vs baseline.josn
 │       ├── interpreteability.json
 │       └── reccomendation_metrics_complete.json
+├── report/                                          # Final Project Report
+│   ├── SI670-yuganshi_saisneha-report.pdf
 ├── requirements.txt                                # Python dependencies
 ├── README.md                                       # This file
 ```

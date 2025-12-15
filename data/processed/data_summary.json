@@ -1,0 +1,33 @@
+{
+  "n_students": 28785,
+  "n_pairs": 49999,
+  "n_positive": 12500,
+  "n_negative": 37499,
+  "positive_rate": 0.250005000100002,
+  "threshold": 0.5571899720637206,
+  "threshold_percentile": 0.75,
+  "comp_score_stats": {
+    "mean": 0.3909663753001536,
+    "std": 0.20559636339917717,
+    "min": 2.0420181784437345e-06,
+    "max": 0.9891606121223651
+  },
+  "feature_columns": [
+    "id_student",
+    "avg_score",
+    "skill_TMA",
+    "skill_CMA",
+    "skill_Exam",
+    "skill_variance",
+    "completion_rate",
+    "early_engagement",
+    "late_engagement",
+    "engagement_consistency",
+    "improvement_rate",
+    "resource_diversity",
+    "total_clicks",
+    "num_prev_attempts",
+    "studied_credits"
+  ],
+  "random_seed": 42
+}
